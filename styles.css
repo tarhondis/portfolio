@@ -45,6 +45,10 @@ body {
 @media (max-width: 768px) {
   .header {
     max-width: 100%;
+    margin-top: 1%;
+  }
+  .contact  {
+    margin-bottom: 2%;
   }
 }
 
@@ -90,11 +94,26 @@ body {
   padding: 20px;
   cursor: pointer;
 
-  color: black;                 /* force arrow color */
-  appearance: none;             /* standard */
-  -webkit-appearance: none;     /* iOS */
-  -webkit-tap-highlight-color: transparent;
+  color: #000;
+  appearance: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  touch-action: manipulation;
 }
+
+
+.arrow,
+.arrow:visited,
+.arrow:active,
+.arrow:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+.arrow:focus {
+  outline: none;
+}
+
 
 .arrow:hover {
   opacity: 0.6;
