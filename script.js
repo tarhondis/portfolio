@@ -1,61 +1,61 @@
  const images = [
     {
-      src: "/img/1.jpeg",
+      src: "img/1.jpeg",
       alt: "Image 1"
     },
     {
-      src: "/img/2.jpeg",
+      src: "img/2.jpeg",
       alt: "Image 2"
     },
     {
-      src: "/img/3.jpeg",
+      src: "img/3.jpeg",
       alt: "Image 3"
     },
     {
-      src: "/img/4.jpeg",
+      src: "img/4.jpeg",
         alt: "Image 4"
     },
     {
-      src: "/img/5.jpeg",
+      src: "img/5.jpeg",
       alt: "Image 5"
     },
     {
-      src: "/img/6.jpeg",
+      src: "img/6.jpeg",
       alt: "Image 6"
     },
     {
-      src: "/img/7.jpeg",
+      src: "img/7.jpeg",
       alt: "Image 7"
     },
     {
-      src: "/img/8.jpeg",
+      src: "img/8.jpeg",
       alt: "Image 8"
     },
     {
-      src: "/img/9.jpeg",
+      src: "img/9.jpeg",
       alt: "Image 9"
     },
     {
-      src: "/img/10.jpeg",
+      src: "img/10.jpeg",
       alt: "Image 10"
     },
     {
-      src: "/img/11.jpeg",
+      src: "img/11.jpeg",
       alt: "Image 11"
     },
     {
-      src: "/img/12.jpeg",
+      src: "img/12.jpeg",
       alt: "Image 12"
     },
     {
-      src: "/img/13.jpeg",
+      src: "img/13.jpeg",
       alt: "Image 13"
     },
-    {src: "/img/14.JPG",
+    {src: "img/14.JPG",
         alt: "Image 14"
     },
     {
-      src: "/img/15.JPG",
+      src: "img/15.JPG",
       alt: "Image 15"
     }
     
