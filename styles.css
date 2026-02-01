@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'OttoLight';
+  src: url('/typeface/ABC Otto Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OttoRegular';
+  src: url('/typeface/ABC Otto Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: OttoRegular, serif;
+    margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100svh; /* mobile-safe viewport */
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  overflow: hidden;
+}
+
+
+.header{
+    padding: 1%;
+    flex-shrink: 0;
+    max-width: 70vw;
+    margin-inline: auto;        /* centers horizontally */
+
+}
+.header p{
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+  .header {
+    max-width: 100%;
+  }
+}
+
+.contact {
+  padding: 1%;
+  padding-top: 2%;
+  width: 100%;
+  text-align: center;
+}
+
+
+.contact a{
+    color: black;
+}
+
+.contact a:hover{
+    color: red;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+}
+
+
+.carousel-content {
+  max-height: 100%;
+}
+
+.carousel-content img {
+  max-height: 70vh; /* KEY */
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.arrow:hover {
+  opacity: 0.6;
+}
+
+.counter {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 14px;
+}
