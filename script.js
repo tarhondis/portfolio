@@ -1,6 +1,6 @@
  const images = [
     {
-      src: "/img/1.jpeg",
+      src: "../img/1.jpeg",
       alt: "Image 1"
     },
     {
