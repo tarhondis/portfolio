@@ -87,9 +87,13 @@ body {
   background: none;
   border: none;
   font-size: 24px;
-  cursor: pointer;
   padding: 20px;
-  color: black;
+  cursor: pointer;
+
+  color: black;                 /* force arrow color */
+  appearance: none;             /* standard */
+  -webkit-appearance: none;     /* iOS */
+  -webkit-tap-highlight-color: transparent;
 }
 
 .arrow:hover {
